@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MeuSite</title>
+    <link rel="stylesheet" href="style/trabalho.css">
+</head>
+
+<body>
+    <form method='post' action=''>
+        <label class="label2" for='username'>Usuário</label>
+        <input class="input2" type='text' id='username' placeholder='Usuário'>
+        <label class="label2" for='password'>Senha</label>
+        <input class="input2" type='password' id='password' placeholder='Senha'>
+        <button class="button2">Entrar no site</button>
+        <p>
+            <label for='email'> E-mail:</label>
+            <input type='email' id='email' name='email' autofocus>
+            <span class='hint'> Por exemplo, seunome@dominio.com.</span>
+            <span class='error'> Preencha o seu e-mail corretamente.</span>
+        </p>
+        <p>
+            <label for='subject'>Assunto:</label>
+            <input type='text' id='subject'>
+            <span class='hint'>Nos diga qual é o seu problema ou ideia.</span>
+            <span class='error'> Preencha o assunto corretamente.</span>
+        </p>
+        <p>
+            <label for='content'>Mensagem:</label>
+            <textarea id='content'></textarea>
+            <span class='hint'>Escreva a sua mensagem, em até 500 caracteres.</span>
+            <span class='error'> Preencha a mensagem corretamente.</span>
+        </p>
+
+        <button class="button1">Enviar mensagem</button>
+    </form>
+
+    <script src="style/js.js"></script>
+</body>
+
+</html>
